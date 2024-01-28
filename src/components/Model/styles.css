@@ -1,0 +1,15 @@
+.modal-header{
+
+    background-color: #3D3935;
+    color: #fff;
+
+}
+
+.fa-triangle-exclamation  {
+    height: 5em;
+    color: #FF6565;
+}
+
+.btn-close-white,[data-bs-theme=light] .btn-close {
+    filter: var(--bs-btn-close-white-filter);
+}

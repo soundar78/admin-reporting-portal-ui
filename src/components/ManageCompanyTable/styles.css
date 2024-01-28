@@ -1,0 +1,44 @@
+
+.react-bootstrap-table-page-btns-ul {
+    float: right;
+    margin-top: 0px !important;
+}
+
+.foo tr th{
+    background-color: #605B56;
+    color: #FFFFFF;
+    height: 40px;
+    text-align: center;
+}
+
+.table tbody tr{
+   height: 40px;
+  
+}
+
+.table tbody td{
+  
+    text-align: center !important;
+    list-style: 22px;
+    padding: 15px 0px;
+
+ }
+
+ .table tbody td a {
+    text-decoration: underline;
+    color: #2e2e2e;
+}
+
+.pagination>li>a, .pagination>li>span {
+    position: relative;
+    float: left;
+    padding: 6px 12px !important;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #2e2e2e;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+

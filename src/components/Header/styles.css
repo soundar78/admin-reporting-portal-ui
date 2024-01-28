@@ -1,0 +1,32 @@
+.pace {
+    background-color: #000;
+}
+
+.pace.pace-active,.pace.pace-inactive {
+    display: block;
+    position: fixed;
+    width: 100%;
+    z-index: 905;
+}
+
+.pace .pace-progress {
+    background: #a5cf4f;
+    top: 49px;
+    height: 4px;
+}
+
+.pace .pace-progress .pace-progress-inner {
+    box-shadow: none;
+}
+
+.pace .pace-activity {
+    display: none;
+}
+
+.btn-header a > span {
+    display: inline-block;
+    font-size: 13px;
+    font-weight:500;
+    height: 0px;
+    line-height: 0px;
+}
