@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
+import { useRef } from 'react'
 import { useState } from 'react'
 import Button from 'react-bootstrap/Button'
 import Modal from 'react-bootstrap/Modal'
@@ -12,16 +13,39 @@ import {
 import { Grid, Row, Column } from 'components/ui/Grid'
 import './styles.css'
 
-const Model = ({ cell }) => {
+const Model = ({ cell, data }) => {
+  const ref = useRef(null)
+
   const [show, setShow] = useState(false)
 
   const handleClose = () => setShow(false)
-  const handleShow = () => setShow(true)
+
+  const [currentId, setCurrentId] = useState()
+
+  const handleShow = (event) => {
+    // console.log(event.currentTarget.id);
+    setShow(true)
+    setCurrentId(ref.current.id)
+  }
+
+  // const handleShow = () => setShow(true)
+
+  const arrayDataItems = data.map((data1) =>
+    data1?.legalname === currentId ? (
+      <>
+        <p>Legal Name : {data1.legalname}</p>
+        <p>DBA : {data1?.dba}</p>
+        <p>Email : {data1?.email}</p>
+      </>
+    ) : (
+      ''
+    )
+  )
 
   return (
     <>
       <span>
-        <a href="#" onClick={handleShow}>
+        <a href="#" ref={ref} id={cell} onClick={handleShow}>
           {cell}{' '}
         </a>
       </span>
@@ -38,9 +62,9 @@ const Model = ({ cell }) => {
 
           <button
             type="button"
-            className="btn-close"
             aria-label="Close"
             onClick={handleClose}
+            className="btn-cls-cus"
           >
             <FontAwesomeIcon icon={faClose} />
           </button>
@@ -58,11 +82,11 @@ const Model = ({ cell }) => {
               <FontAwesomeIcon icon={faTriangleExclamation} />
             </Column>
             <Column span={9}>
-              {' '}
-              <h4>Are you sure to suspend the company?</h4>
-              <p>Legal Name : BadgerToll</p>
-              <p>DBA : BGR</p>
-              <p>Email : badgertoll@mail.com</p>
+              <>
+                <h4>Are you sure to suspend the company? </h4>
+
+                {arrayDataItems}
+              </>
             </Column>
           </Row>
         </Modal.Body>

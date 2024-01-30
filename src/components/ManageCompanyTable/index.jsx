@@ -45,7 +45,7 @@ const data = [
   },
   {
     id: 4,
-    legalname: 'BadgerToll',
+    legalname: 'BadgerToll4',
     dba: 'BGR',
     plan: 'TollGuard And T...',
     contract: '#PC-246Z',
@@ -57,7 +57,7 @@ const data = [
   },
   {
     id: 5,
-    legalname: 'BadgerToll',
+    legalname: 'BadgerToll5',
     dba: 'BGR',
     plan: 'TollGuard And T...',
     contract: '#PC-246Z',
@@ -69,7 +69,7 @@ const data = [
   },
   {
     id: 6,
-    legalname: 'BadgerToll',
+    legalname: 'BadgerToll6',
     dba: 'BGR',
     plan: 'TollGuard And T...',
     contract: '#PC-246Z',
@@ -81,7 +81,7 @@ const data = [
   },
   {
     id: 7,
-    legalname: 'BadgerToll',
+    legalname: 'BadgerToll7',
     dba: 'BGR',
     plan: 'TollGuard And T...',
     contract: '#PC-246Z',
@@ -93,7 +93,7 @@ const data = [
   },
   {
     id: 8,
-    legalname: 'BadgerToll',
+    legalname: 'BadgerToll8',
     dba: 'BGR',
     plan: 'TollGuard And T...',
     contract: '#PC-246Z',
@@ -105,7 +105,7 @@ const data = [
   },
   {
     id: 9,
-    legalname: 'BadgerToll',
+    legalname: 'BadgerToll9',
     dba: 'BGR',
     plan: 'TollGuard And T...',
     contract: '#PC-246Z',
@@ -117,7 +117,7 @@ const data = [
   },
   {
     id: 10,
-    legalname: 'BadgerToll',
+    legalname: 'BadgerToll10',
     dba: 'BGR',
     plan: 'TollGuard And T...',
     contract: '#PC-246Z',
@@ -129,7 +129,7 @@ const data = [
   },
   {
     id: 11,
-    legalname: 'BadgerToll',
+    legalname: 'BadgerToll11',
     dba: 'BGR',
     plan: 'TollGuard And T...',
     contract: '#PC-246Z',
@@ -141,7 +141,7 @@ const data = [
   },
   {
     id: 12,
-    legalname: 'BadgerToll',
+    legalname: 'BadgerToll12',
     dba: 'BGR',
     plan: 'TollGuard And T...',
     contract: '#PC-246Z',
@@ -153,7 +153,7 @@ const data = [
   },
   {
     id: 13,
-    legalname: 'BadgerToll',
+    legalname: 'BadgerToll13',
     dba: 'BGR',
     plan: 'TollGuard And T...',
     contract: '#PC-246Z',
@@ -165,7 +165,7 @@ const data = [
   },
   {
     id: 14,
-    legalname: 'BadgerToll',
+    legalname: 'BadgerToll14',
     dba: 'BGR',
     plan: 'TollGuard And T...',
     contract: '#PC-246Z',
@@ -177,7 +177,7 @@ const data = [
   },
   {
     id: 15,
-    legalname: 'BadgerToll',
+    legalname: 'BadgerToll15',
     dba: 'BGR',
     plan: 'TollGuard And T...',
     contract: '#PC-246Z',
@@ -189,7 +189,7 @@ const data = [
   },
   {
     id: 16,
-    legalname: 'BadgerToll',
+    legalname: 'BadgerToll16',
     dba: 'BGR',
     plan: 'TollGuard And T...',
     contract: '#PC-246Z',
@@ -201,7 +201,7 @@ const data = [
   },
   {
     id: 17,
-    legalname: 'BadgerToll',
+    legalname: 'BadgerToll17',
     dba: 'BGR',
     plan: 'TollGuard And T...',
     contract: '#PC-246Z',
@@ -213,7 +213,7 @@ const data = [
   },
   {
     id: 18,
-    legalname: 'BadgerToll',
+    legalname: 'BadgerToll18',
     dba: 'BGR',
     plan: 'TollGuard And T...',
     contract: '#PC-246Z',
@@ -225,7 +225,7 @@ const data = [
   },
   {
     id: 19,
-    legalname: 'BadgerToll',
+    legalname: 'BadgerToll19',
     dba: 'BGR',
     plan: 'TollGuard And T...',
     contract: '#PC-246Z',
@@ -237,7 +237,7 @@ const data = [
   },
   {
     id: 20,
-    legalname: 'BadgerToll',
+    legalname: 'BadgerToll20',
     dba: 'BGR',
     plan: 'TollGuard And T...',
     contract: '#PC-246Z',
@@ -249,7 +249,7 @@ const data = [
   },
   {
     id: 21,
-    legalname: 'BadgerToll',
+    legalname: 'BadgerToll21',
     dba: 'BGR',
     plan: 'TollGuard And T...',
     contract: '#PC-246Z',
